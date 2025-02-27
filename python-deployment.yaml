@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: your-docker-registry/flask-app:latest
+          image: miratek/python-web-app:18
           ports:
             - containerPort: 8080
           env:
